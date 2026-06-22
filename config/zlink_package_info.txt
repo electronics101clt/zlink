@@ -1,0 +1,256 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        73abcb2 com.zjinnova.zlink/com.zjinnova.android.zlink.features.main.MainActivity filter 629eacf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d2cc403 com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.CarPlayActivity filter 22a303a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d1a8f80 com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.HiCarActivity filter d8464eb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        90849b9 com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.HiCarUnavailableActivity filter e0c248
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d13f1fe com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.CarPlayAutoActivity filter 694d8e1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        dad9d5f com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.MirrorActivity filter 67b1606
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f5923ac com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.AutoActivity filter 1c264c7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4dac875 com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.CarLifeActivity filter 363baf4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9b9300a com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.CarPlayUnavailableActivity filter 125221d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        238b07b com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.AutoUnavailableActivity filter ca28c92
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        20ace98 com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.ActivationActivity filter 2f68663
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b1c76f1 com.zjinnova.zlink/com.zjinnova.android.zlink.features.dlna.DlnaActivity filter 37b9260
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6c242d6 com.zjinnova.zlink/com.zjinnova.android.zlink.features.launcher.DlnaActivity filter 876c319
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      zjinnova.android.intent.action.ZLINK_MAIN:
+        73abcb2 com.zjinnova.zlink/com.zjinnova.android.zlink.features.main.MainActivity filter 7e3c5c
+          Action: "zjinnova.android.intent.action.ZLINK_MAIN"
+          Category: "android.intent.category.DEFAULT"
+      zjinnova.android.intent.action.MAIN_PAGES:
+        73abcb2 com.zjinnova.zlink/com.zjinnova.android.zlink.features.main.MainActivity filter 74beb65
+          Action: "zjinnova.android.intent.action.MAIN_PAGES"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        897d957 com.zjinnova.zlink/androidx.profileinstaller.ProfileInstallReceiver filter eb81da9
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.PHONE_STATE:
+        d2a3c44 com.zjinnova.zlink/com.zjinnova.android.zlink.features.broadcast.PhoneStateReceiver filter abea6e2
+          Action: "android.intent.action.PHONE_STATE"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        9f0912d com.zjinnova.zlink/com.zjinnova.android.zlink.features.service.StartupBroadcastReceiver filter a31d7d7
+          Action: "zjinnova.android.intent.action.START_DAEMON_SERVICE"
+          Action: "zjinnova.intent.action.START_ZLINK_SERVICE"
+          Action: "com.zjinnova.zlink"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        897d957 com.zjinnova.zlink/androidx.profileinstaller.ProfileInstallReceiver filter ed21a73
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        897d957 com.zjinnova.zlink/androidx.profileinstaller.ProfileInstallReceiver filter b767d30
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        897d957 com.zjinnova.zlink/androidx.profileinstaller.ProfileInstallReceiver filter 7244f2e
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      zjinnova.android.intent.action.START_DAEMON_SERVICE:
+        9f0912d com.zjinnova.zlink/com.zjinnova.android.zlink.features.service.StartupBroadcastReceiver filter a31d7d7
+          Action: "zjinnova.android.intent.action.START_DAEMON_SERVICE"
+          Action: "zjinnova.intent.action.START_ZLINK_SERVICE"
+          Action: "com.zjinnova.zlink"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+      com.zjinnova.zlink:
+        9f0912d com.zjinnova.zlink/com.zjinnova.android.zlink.features.service.StartupBroadcastReceiver filter a31d7d7
+          Action: "zjinnova.android.intent.action.START_DAEMON_SERVICE"
+          Action: "zjinnova.intent.action.START_ZLINK_SERVICE"
+          Action: "com.zjinnova.zlink"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        d77b662 com.zjinnova.zlink/com.zjinnova.android.zlink.features.upgrade.InstallUpgradeBroadcastReceiver filter e4698c4
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+      zjinnova.intent.action.START_ZLINK_SERVICE:
+        9f0912d com.zjinnova.zlink/com.zjinnova.android.zlink.features.service.StartupBroadcastReceiver filter a31d7d7
+          Action: "zjinnova.android.intent.action.START_DAEMON_SERVICE"
+          Action: "zjinnova.intent.action.START_ZLINK_SERVICE"
+          Action: "com.zjinnova.zlink"
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+      android.intent.action.MEDIA_BUTTON:
+        756b3f3 com.zjinnova.zlink/com.zjinnova.android.zlink.features.broadcast.MediaButtonReceiver filter 232f3ad
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      zjinnova.android.intent.action.ZLINK_SERVICE:
+        bb0d8b0 com.zjinnova.zlink/com.zjinnova.android.zlink.features.service.DaemonService filter fa32b56
+          Action: "zjinnova.android.intent.action.ZLINK_SERVICE"
+
+Permissions:
+  Permission [com.zjinnova.zlink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (4721329):
+    sourcePackage=com.zjinnova.zlink
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{11ed6ae com.zjinnova.zlink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    packageSetting=PackageSetting{81e9c4f com.zjinnova.zlink/10068}
+  Permission [zjinnova.android.permission.ZLINK_SERVICE] (cc2cfdc):
+    sourcePackage=com.zjinnova.zlink
+    uid=10068 gids=null type=0 prot=normal
+    perm=Permission{a6fb8e5 zjinnova.android.permission.ZLINK_SERVICE}
+    packageSetting=PackageSetting{81e9c4f com.zjinnova.zlink/10068}
+
+Registered ContentProviders:
+  com.zjinnova.zlink/com.tencent.mid.api.MidProvider:
+    Provider{205afba com.zjinnova.zlink/com.tencent.mid.api.MidProvider}
+  com.zjinnova.zlink/androidx.startup.InitializationProvider:
+    Provider{bd2ae6b com.zjinnova.zlink/androidx.startup.InitializationProvider}
+  com.zjinnova.zlink/com.zjinnova.android.zlink.features.init.InitContentProvider:
+    Provider{b9b0dc8 com.zjinnova.zlink/com.zjinnova.android.zlink.features.init.InitContentProvider}
+  com.zjinnova.zlink/androidx.core.content.FileProvider:
+    Provider{fe7fe61 com.zjinnova.zlink/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.zjinnova.zlink.TENCENT.MID.V3]:
+    Provider{205afba com.zjinnova.zlink/com.tencent.mid.api.MidProvider}
+      applicationInfo=ApplicationInfo{54f0d86 com.zjinnova.zlink}
+  [com.zjinnova.zlink.init.provider]:
+    Provider{b9b0dc8 com.zjinnova.zlink/com.zjinnova.android.zlink.features.init.InitContentProvider}
+      applicationInfo=ApplicationInfo{54f0d86 com.zjinnova.zlink}
+  [com.zjinnova.zlink.fileProvider]:
+    Provider{fe7fe61 com.zjinnova.zlink/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{54f0d86 com.zjinnova.zlink}
+  [com.zjinnova.zlink.androidx-startup]:
+    Provider{bd2ae6b com.zjinnova.zlink/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{54f0d86 com.zjinnova.zlink}
+
+Key Set Manager:
+  [com.zjinnova.zlink]
+      Signing KeySets: 13
+
+Packages:
+  Package [com.zjinnova.zlink] (81e9c4f):
+    userId=10068
+    pkg=Package{5c5b171 com.zjinnova.zlink}
+    codePath=/vendor/operator/app/zlink_wireless
+    resourcePath=/vendor/operator/app/zlink_wireless
+    legacyNativeLibraryDir=/data/app-lib/zlink_wireless
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    versionCode=50471 minSdk=21 targetSdk=21
+    versionName=5.4.71
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{54f0d86 com.zjinnova.zlink}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ]
+    pkgFlagsEx=[ OPERATOR ]
+    dataDir=/data/user/0/com.zjinnova.zlink
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    firstInstallTime=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    signatures=PackageSignatures{46bc647 [bd481f99]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      zjinnova.android.permission.ZLINK_SERVICE: prot=normal, INSTALLED
+      com.zjinnova.zlink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_ALL_DOWNLOADS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BROADCAST_STICKY
+      android.permission.CALL_PHONE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.INTERNET
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.RECORD_AUDIO
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.READ_LOGS
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.WRITE_SETTINGS
+      android.permission.OVERRIDE_WIFI_CONFIG
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.TETHER_PRIVILEGED
+      android.permission.NETWORK_SETTINGS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.VIBRATE
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.ACCESS_FINE_LOCATION: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.READ_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_COARSE_LOCATION: granted=true
+      android.permission.READ_PHONE_STATE: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.CALL_PHONE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.RECORD_AUDIO: granted=true
+    User 0: ceDataInode=-4293873477 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+    overlay paths:
+      /vendor/overlay/framework-res__auto_generated_rro.apk
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+
+Package Changes:
+  Sequence number=3
+  User 0:
+    seq=0, package=com.microsoft.launcher
+    seq=2, package=com.google.android.gms
+
+
+Dexopt state:
+  [com.zjinnova.zlink]
+    path: /vendor/operator/app/zlink_wireless/zlink_wireless.apk
+      arm: /data/dalvik-cache/arm/vendor@operator@app@zlink_wireless@zlink_wireless.apk@classes.dex[status=kOatUpToDate,
+       compilation_filter=quicken]
+
+
+Compiler stats:
+  [com.zjinnova.zlink]
+    (No recorded stats)
