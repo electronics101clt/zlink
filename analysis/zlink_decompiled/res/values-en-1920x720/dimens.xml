@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hicar_step_pading_l">15.0dip</dimen>
+    <dimen name="hicar_step_sp">13.0sp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="odm" path="/odm/" />
+    <external-path name="external" path="/" />
+    <external-files-path name="Download" path="Download" />
+</paths>

@@ -1,0 +1,69 @@
+=== libAirPlay.so ===
+CarPlayGetAAC_2_apk
+AirPlayReceiverServerPlatformInitialize
+AirPlayReceiverServerPlatformFinalize
+AirPlayReceiverServerPlatformControl
+AirPlayReceiverServerPlatformCopyProperty
+AirPlayReceiverServerPlatformSetProperty
+AirPlayReceiverSessionPlatformInitialize
+AirPlayReceiverSessionPlatformFinalize
+AirPlayReceiverSessionPlatformControl
+gLogCategory_AirPlayReceiverPlatform
+AirPlayReceiverSessionPlatformCopyProperty
+AirPlayReceiverSessionPlatformSetProperty
+gLogCategory_AirPlayReceiverServer
+AirPlayReceiverServerCopyProperty
+AirPlayReceiverSessionTearDown
+AirPlayReceiverServerSetProperty
+gLogCategory_AirPlayReceiverServerHTTP
+carplay_set_OS_version
+AirPlayReceiverSessionCreate
+AirPlayReceiverSessionSetHomeKitSecurityContext
+=== libAirPlaySupport.so ===
+CarPlayGetAAC_2_apk
+libAirPlaySupport.so
+/root/.jenkins/workspace/Zlink5GitlabCompileLibs/Zlink5Libs/carplay-protocal-3.0/AppleCarPlay_CommunicationPlugin_R16A8/PlatformPOSIX/../Support/ScreenUtilsDLL.c
+/root/.jenkins/workspace/Zlink5GitlabCompileLibs/Zlink5Libs/carplay-protocal-3.0/AppleCarPlay_CommunicationPlugin_R16A8/PlatformPOSIX/../Support/AudioUtilsDLL.c
+/root/.jenkins/workspace/Zlink5GitlabCompileLibs/Zlink5Libs/carplay-protocal-3.0/AppleCarPlay_CommunicationPlugin_R16A8/PlatformPOSIX/../Platform/AudioConverterStub.c
+=== libusbmuxd.so ===
+usbf
+[UsbMux]createSocket: socket() failed: %s
+[UsbMux]createSocket: bind() failed: %s
+[UsbMux]createSocket: listen() failed: %s
+Initializing USB
+[UsbMux]forward: local=%d, remote=%d
+[UsbMux]forward: no connected phone
+[UsbMux]forward: createSocket failed
+usbmuxd shutting down
+ec_usb_filter
+USB timeout is %d ms
+usb_process() failed
+[UsbMux]forward_loop: select error, %s
+[UsbMux]accept_local: failed to accept client, local_port=%d
+[UsbMux]accept_local: failed to connect_to_device, remote_port=%d
+[UsbMux]connect_to_device: currently no device available
+[UsbMux]connect_to_device: available device num=%d
+[UsbMux]connect_to_device: no connected device found
+[UsbMux]connect_to_device: Error connecting to device
+[UsbMux]connect_to_device: successfully connect to device(%d)
+=== libzjAirPlay.so ===
+dnssd_unregister_airplay
+dnssd_register_airplay
+zj_airplay_start
+zj_airplay_stop
+fairplay_init
+fairplay_setup
+fairplay_handshake
+fairplay_decrypt
+fairplay_destroy
+dnssd_get_airplay_txt
+utils_hwaddr_airplay
+waitting zj_airplay_init...
+fairplay_playfair.c
+fairplay_handshake
+fairplay_setup
+txtAirPlay
+AppleTV3,2
+application/x-apple-binary-plist
+fairplay_decrypt ret = %d
+16 byte aeskey (fairplay-decrypted from ekey):

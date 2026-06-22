@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="support_features">
+        <item>CPL</item>
+        <item>CPW</item>
+        <item>AAL</item>
+        <item>AAW</item>
+        <item>HCL</item>
+        <item>HCW</item>
+        <item>QTL</item>
+        <item>QTW</item>
+        <item>AML</item>
+        <item>AMW</item>
+        <item>CLL</item>
+        <item>CLW</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="android_wireless_setup_tips">20.0sp</dimen>
+    <dimen name="hebrew_margin_top">40.0dip</dimen>
+    <dimen name="link_title_tips">12.0sp</dimen>
+</resources>

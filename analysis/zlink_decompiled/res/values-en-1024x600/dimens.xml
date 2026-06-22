@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hicar_device_name_sp">13.0sp</dimen>
+    <dimen name="hicar_device_state_sp">10.0sp</dimen>
+    <dimen name="hicar_step_pading_l">25.0dip</dimen>
+    <dimen name="hicar_step_sp">10.0sp</dimen>
+    <dimen name="hicar_wireless_tip_sp">16.0sp</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="connecting_horizontal_bias">0.543</item>
+    <item type="dimen" name="connecting_vertical_bias">0.56</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_dlna_step_one_height">300.0dip</dimen>
+    <dimen name="img_dlna_step_one_width">400.0dip</dimen>
+    <dimen name="img_dlna_step_two_height">200.0dip</dimen>
+    <dimen name="img_dlna_step_two_width">400.0dip</dimen>
+</resources>

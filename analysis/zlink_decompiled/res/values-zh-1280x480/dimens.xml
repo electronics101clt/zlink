@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="connecting_horizontal_bias">0.5</item>
+    <item type="dimen" name="connecting_vertical_bias">0.65</item>
+    <dimen name="hicar_device_name_sp">13.0sp</dimen>
+    <dimen name="hicar_device_state_sp">12.0sp</dimen>
+    <dimen name="hicar_step_pading_l">15.0dip</dimen>
+    <dimen name="hicar_step_sp">11.0sp</dimen>
+    <dimen name="hicar_wireless_tip_sp">13.0sp</dimen>
+    <item type="dimen" name="main_page_tips_guideline_left_percent">0.75</item>
+    <item type="dimen" name="main_page_tips_guideline_right_percent">0.98</item>
+</resources>

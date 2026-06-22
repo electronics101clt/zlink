@@ -1,0 +1,61 @@
+version: 2.10.0
+apkFileName: zlink_wireless.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 21
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 50471
+  versionName: 5.4.71
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  Log4j-config.xsd: 8
+  Log4j-events.dtd: 8
+  Log4j-events.xsd: 8
+  Log4j-levels.xsd: 8
+  androidsupportmultidexversion.txt: 8
+  kotlin-tooling-metadata.json: 8
+  Free_version: 0
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+doNotCompress:
+- resources.arsc
+- META-INF/com.android.tools.metadata/drm/com.google.play/metadata.bin
+- META-INF/com.android.tools.metadata/drm/com.oppo.market/metadata.bin
+- META-INF/com.android.tools.metadata/xiaomi/mi.com/metadata.bin
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- webp
+- png
+- res/drawable-land-1920x720/bg_hc_preview_en.webp
+- res/drawable-land-1920x720/bg_hc_preview.webp
+- res/drawable-hdpi/bg_hc_preview_en.webp
+- res/drawable-land-1920x720/bg_hicar_pincode.webp
+- res/drawable-hdpi/bg_hc_preview.webp
+- res/drawable/ic_android_wireless_mirroring_pressed.webp
+- jpg
+- res/mipmap-xhdpi/bg_hicar_r.webp
+- res/drawable/ic_ios_wireless_mirroring_pressed.webp
+- res/drawable-hdpi/bg_cp_preview_land.webp
+- res/mipmap-xxxhdpi/bg_hicar_r.webp
+- res/drawable-land-1024x600/bg_hc_preview_en.webp
+- res/drawable-hdpi/bg_aa_preview_land.webp
+- res/mipmap-hdpi/bg_hicar_r.webp
+- res/drawable/ic_ios_wireless_mirroring.webp
+- res/mipmap-mdpi/bg_hicar_r.webp
+- res/drawable/ic_android_wireless_mirroring.webp
+- res/drawable-land-1024x600/bg_hc_preview.webp
+- res/drawable-hdpi/bg_cl_preview_land.webp
+- res/mipmap-xxhdpi/bg_hicar_r.webp
+- res/drawable-hdpi/bg_hicar_pincode.webp
+- res/drawable-land-1024x600/bg_hicar_pincode.webp

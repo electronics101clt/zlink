@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout-1712x440/layout_quicktime_0" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MainPageCard.FullscreenContent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_end_in_qt" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.1" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/qt_setup_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/mirroring_wireless_ios_tips_title_short_land" android:textAlignment="center" android:textFontWeight="600" app:layout_constrainedWidth="true" app:layout_constraintStart_toStartOf="@id/guideline_end_in_qt" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="200.0dip" android:layout_height="200.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/img_ios_trust_land" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+property_get_android
+AndroidAutoStart
+__android_log_print
+AutoPing_watch_dog
+zj__aa__wifi_projection_service__init
+zj__aa__wifi_projection_service__get_packed_size
+zj__aa__wifi_projection_service__descriptor
+zj__aa__wifi_projection_service__pack
+zj__aa__wifi_projection_service__pack_to_buffer
+zj__aa__wifi_projection_service__unpack
+zj__aa__wifi_projection_service__free_unpacked
+android_network_share_start
+HiCarStartProjection
+HiCarPauseProjection
+libusb_set_auto_detach_kernel_driver
+ssl_get_auto_dh
+d2i_AutoPrivateKey
+---------------------Android Auto resize loop exit
+AndroidAutoStart: libusb_open_device_with_vid_pid fail
+Android
+Android Auto
+http://url.zjinnova.com/download_zlink5_android_app
+AndroidAutoStart: libusb_open_device_with_vid_pid fail
+zlink AndroidAutoStart
+/sys/class/android_usb/android0/functions
+/sys/class/android_usb/android0/enable
+set_bt_version_property WIRELESS_AUTO_TYPE
+[AA]Android Auto rfcomm open success
+ZBT_ANDROID_AUTO
+ZBT_ANDROID_CARLIFE
+export PATH=$PATH:/system/bin/;am startservice -a "zjinnova.android.intent.action.ZLINK_SERVICE" &
+export PATH=$PATH:/system/bin/;am start-foreground-service -a "zjinnova.android.intent.action.ZLINK_SERVICE" &
+ps -ef|grep zjinnova.android.intent.action.START_DAEMON_SERVICE |grep -v grep |busybox awk '{print $2}'|xargs kill -9
+export PATH=$PATH:/system/bin/;am start-service -a "zjinnova.android.intent.action.ZLINK_SERVICE" &
+export PATH=$PATH:/system/bin/;am broadcast -a "zjinnova.android.intent.action.START_DAEMON_SERVICE" --include-stopped-packages "com.zjinnova.zlink"&
+WIRE_ANDROID_MIRROR control_stop_zlink stop
+zlink WIRE_AUTO control_stop_zlink sto
+WIRE_AUTO
+WIRELESS_AUTO
+WIRE_ANDROID_MIRROR
+WIRELESS_ANDROID_MIRROR
+AA_transfer_start: wireless AA got the Android phone
+Desktop Head Unit
+wifi_projection_service: id = %d
+message->base.descriptor == &zj__aa__wifi_projection_service__descriptor
+zj.AA.WifiProjectionService
+WifiProjectionService
+Zj__AA__WifiProjectionService
+wifi_projection_service
+head_unit_make

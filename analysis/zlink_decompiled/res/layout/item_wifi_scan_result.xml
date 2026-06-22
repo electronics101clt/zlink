@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/selector_bg_item_wifi_scan_result" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/adapter_wifi_icon" android:layout_width="16.0dip" android:layout_height="13.0dip" android:layout_centerVertical="true" android:layout_marginStart="27.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_wifi_icon" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/adapter_wifi_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" android:layout_toStartOf="@id/adapter_wifi_lock" android:layout_toEndOf="@id/adapter_wifi_icon" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/adapter_wifi_lock" android:layout_width="11.0dip" android:layout_height="13.0dip" android:layout_centerVertical="true" android:layout_marginEnd="27.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_icon_lock" />
+</RelativeLayout>

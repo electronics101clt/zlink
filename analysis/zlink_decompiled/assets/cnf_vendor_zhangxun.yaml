@@ -1,0 +1,25 @@
+chn: zhangxun
+platforms:
+  # 渠道默认配置
+  default:
+    # 是否启用 HUD
+    enable_hud: false
+    # MFI BUS NUM1
+    # mfi_bus_num1: 0
+    # MFI BUS NUM2
+    # mfi_bus_num2: 0
+    # MFI BUS NUM1
+    # otg_bus_num: 0
+    # OTG 切主命令字符串
+    # otg_switch_to_host_cmd: "''"
+    # OTG 切从命令字符串
+    # otg_switch_to_device_cmd: "''"
+    # 无线 CP 是否强制使用 ipv4
+    force_use_ip4_for_cpw: false
+  bengal:
+    # OTG 切主命令字符串
+    otg_switch_to_host_cmd: "'echo host > /sys/devices/platform/soc/4e00000.ssusb/mode;'"
+    # OTG 切从命令字符串
+    otg_switch_to_device_cmd: "'echo peripheral > /sys/devices/platform/soc/4e00000.ssusb/mode;'"
+    mfi_bus_num1: 2
+

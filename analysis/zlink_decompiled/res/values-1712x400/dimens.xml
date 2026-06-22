@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="connecting_horizontal_bias">0.57</item>
+    <item type="dimen" name="connecting_vertical_bias">0.64</item>
+    <dimen name="splash_logo_margin_bottom_portrait">-250.0px</dimen>
+    <dimen name="splash_logo_margin_left">250.0px</dimen>
+</resources>

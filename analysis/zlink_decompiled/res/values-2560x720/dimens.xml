@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="connect_hint_font_size">12.0sp</dimen>
+    <dimen name="tip_top_title">0.0dip</dimen>
+    <dimen name="zlink_font_size">18.0sp</dimen>
+</resources>

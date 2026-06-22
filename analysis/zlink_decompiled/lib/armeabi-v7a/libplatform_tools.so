@@ -1,0 +1,16 @@
+pm grant com.zjinnova.zlink android.permission.READ_EXTERNAL_STORAGE user-set true review-required false &;
+pm grant com.zjinnova.zlink android.permission.WRITE_EXTERNAL_STORAGE user-set true review-required false;
+pm grant com.zjinnova.zlink android.permission.ACCESS_FINE_LOCATION user-set true review-required false;
+pm grant com.zjinnova.zlink android.permission.ACCESS_COARSE_LOCATION user-set true review-required false;
+pm grant com.zjinnova.zlink android.permission.RECORD_AUDIO user-set true review-required false;
+pm grant com.zjinnova.zlink android.permission.CALL_PHONE user-set true review-required false;
+pm grant com.zjinnova.zlink android.permission.READ_PHONE_STATE user-set true review-required false;
+appops set com.zjinnova.zlink READ_EXTERNAL_STORAGE allow;
+appops set com.zjinnova.zlink WRITE_EXTERNAL_STORAGE allow;
+appops set com.zjinnova.zlink COARSE_LOCATION allow;
+appops set com.zjinnova.zlink FINE_LOCATION allow;
+appops set com.zjinnova.zlink RECORD_AUDIO allow;
+appops set com.zjinnova.zlink SYSTEM_ALERT_WINDOW allow;
+appops set com.zjinnova.zlink WRITE_SETTINGS allow;
+appops set com.zjinnova.zlink CALL_PHONE allow;
+appops write-settings;

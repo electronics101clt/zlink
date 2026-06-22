@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="connecting_vertical_bias">0.5</item>
+    <dimen name="hicar_device_delete">25.0dip</dimen>
+    <dimen name="hicar_device_name_sp">13.0sp</dimen>
+    <dimen name="hicar_device_state_sp">10.0sp</dimen>
+    <dimen name="hicar_step_sp">10.0sp</dimen>
+    <dimen name="hicar_wireless_tip_sp">13.0sp</dimen>
+</resources>

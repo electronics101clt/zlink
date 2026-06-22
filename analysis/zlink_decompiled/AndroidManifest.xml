@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.zjinnova.zlink" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <permission android:name="zjinnova.android.permission.ZLINK_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.TETHER_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <permission android:name="com.zjinnova.zlink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:allowBackup="false" android:directBootAware="true" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="MyWrapperProxyApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:theme="@style/ZlinkApp">
+        <activity android:launchMode="singleTop" android:name="com.zjinnova.android.zlink.features.settings.SettingsActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:theme="@style/ZlinkApp" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="true" android:exported="true" android:launchMode="singleTask" android:name="com.zjinnova.android.zlink.features.main.MainActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:supportsPictureInPicture="false" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="zjinnova.android.intent.action.ZLINK_MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="zjinnova.android.intent.action.MAIN_PAGES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="isMainSplitScreenEnable" android:value="false"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_cp_launcher" android:label="CarPlay" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.CarPlayActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".CarPlay" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_hicar_launcher" android:label="HUAWEI HiCar" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.HiCarActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".HiCar" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@mipmap/ic_aa_disable_launcher" android:label="HUAWEI HiCar" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.HiCarUnavailableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_aa_cp_launcher" android:label="CarPlay/Auto" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.CarPlayAutoActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".CarPlayAuto" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_mirror_launcher" android:label="@string/label_mirroring" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.MirrorActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".Mirror" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_aa_launcher" android:label="Android Auto" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.AutoActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".Auto" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_carlife_launcher" android:label="CarLife" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.CarLifeActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".CarLife" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="false" android:exported="true" android:icon="@mipmap/ic_cp_disable_launcher" android:label="CarPlay" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.CarPlayUnavailableActivity" android:targetActivity="com.zjinnova.android.zlink.features.launcher.UnavailableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.zjinnova.android.zlink.features.launcher.CheckPermissionsAndActivationActivity" android:theme="@style/ZlinkApp.Splash"/>
+        <activity android:enabled="false" android:exported="true" android:icon="@mipmap/ic_aa_disable_launcher" android:label="Android Auto" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.AutoUnavailableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/activation" android:launchMode="singleTask" android:name="com.zjinnova.android.zlink.features.launcher.ActivationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_dlna_launcher" android:label="@string/label_dlna" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.dlna.DlnaActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".Dlna" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:enabled="false" android:exported="true" android:icon="@mipmap/ic_dlna_launcher" android:label="@string/label_dlna" android:launchMode="singleInstance" android:name="com.zjinnova.android.zlink.features.launcher.DlnaActivity" android:resizeableActivity="false" android:screenOrientation="fullSensor" android:taskAffinity=".DlnaHct" android:theme="@style/ZlinkApp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="BaiduMobAd_STAT_ID" android:value="3185ecff7c"/>
+        <meta-data android:name="BaiduMobAd_CHANNEL" android:value="zj"/>
+        <meta-data android:name="BaiduMobAd_EXCEPTION_LOG" android:value="true"/>
+        <meta-data android:name="BaiduMobAd_ONLY_WIFI" android:value="false"/>
+        <meta-data android:name="BaiduMobAd_CELL_LOCATION" android:value="true"/>
+        <meta-data android:name="BaiduMobAd_GPS_LOCATION" android:value="true"/>
+        <meta-data android:name="BaiduMobAd_WIFI_LOCATION" android:value="true"/>
+        <meta-data android:name="AutoEnable" android:value="false"/>
+        <meta-data android:name="CarPlayEnable" android:value="false"/>
+        <meta-data android:name="MirrorEnable" android:value="false"/>
+        <meta-data android:name="DlnaEnable" android:value="false"/>
+        <meta-data android:name="DlnaHctEnable" android:value="false"/>
+        <meta-data android:name="HiCarEnable" android:value="false"/>
+        <meta-data android:name="CarLifeEnable" android:value="false"/>
+        <meta-data android:name="AAOrCPEnable" android:value="false"/>
+        <receiver android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.zjinnova.android.zlink.features.service.StartupBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zjinnova.android.intent.action.START_DAEMON_SERVICE"/>
+                <action android:name="zjinnova.intent.action.START_ZLINK_SERVICE"/>
+                <action android:name="com.zjinnova.zlink"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.zjinnova.android.zlink.features.upgrade.InstallUpgradeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.zjinnova.android.zlink.features.broadcast.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.zjinnova.android.zlink.features.broadcast.PhoneStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="location|mediaPlayback|mediaProjection|phoneCall" android:name="com.zjinnova.android.zlink.features.service.DaemonService" android:permission="zjinnova.android.permission.ZLINK_SERVICE" android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="zjinnova.android.intent.action.ZLINK_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.zjinnova.android.zlink.features.service.SecondaryScreenService"/>
+        <service android:name="com.zjinnova.android.zlink.features.wireless.ZBTService"/>
+        <service android:name="com.zjinnova.android.zlink.features.wireless.BluetoothService"/>
+        <service android:name="com.zjinnova.android.zlink.features.wireless.BluetoothHCTService"/>
+        <meta-data android:name="design_width_in_dp" android:value="720"/>
+        <meta-data android:name="design_height_in_dp" android:value="1280"/>
+        <meta-data android:name="allow_split_video_screen" android:value="false"/>
+        <provider android:authorities="com.zjinnova.zlink.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="com.zjinnova.zlink.init.provider" android:directBootAware="true" android:exported="false" android:multiprocess="true" android:name="com.zjinnova.android.zlink.features.init.InitContentProvider"/>
+        <provider android:authorities="com.zjinnova.zlink.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <meta-data android:name="TA_APPKEY" android:value="84BFDD5DAE"/>
+        <meta-data android:name="InstallChannel" android:value="通用"/>
+        <provider android:authorities="com.zjinnova.zlink.TENCENT.MID.V3" android:exported="true" android:name="com.tencent.mid.api.MidProvider"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

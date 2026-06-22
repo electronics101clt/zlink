@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_phone_call_volume_0" android:background="@color/page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/app_bar" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="60.0dip" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_back" android:background="@drawable/selector_ic_back" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="27.0sp" android:textStyle="bold" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_call_adjust_volume" android:layout_marginStart="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/btn_back" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" android:background="#ff3c3d42" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintTop_toBottomOf="@id/app_bar" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" app:layout_constraintTop_toBottomOf="@id/divider">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/phone_call_mic_volume" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/phone_call_mic_volume_rg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/phone_call_mic_volume_one" android:text="1" style="@style/RadioChooseCallVolume" />
+                <RadioButton android:id="@id/phone_call_mic_volume_two" android:text="2" style="@style/RadioChooseCallVolume" />
+                <RadioButton android:id="@id/phone_call_mic_volume_three" android:text="3" style="@style/RadioChooseCallVolume" />
+            </RadioGroup>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/phone_call_car_volume" />
+            <RadioGroup android:orientation="horizontal" android:id="@id/phone_call_car_volume_rg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/phone_call_car_volume_one" android:text="1" style="@style/RadioChooseCallVolume" />
+                <RadioButton android:id="@id/phone_call_car_volume_two" android:text="2" style="@style/RadioChooseCallVolume" />
+                <RadioButton android:id="@id/phone_call_car_volume_three" android:text="3" style="@style/RadioChooseCallVolume" />
+            </RadioGroup>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

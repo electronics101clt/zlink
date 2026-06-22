@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ZlinkApp.Splash" parent="@style/ZlinkApp">
+        <item name="android:windowBackground">@drawable/layer_list_bg_splash_portrait</item>
+    </style>
+</resources>

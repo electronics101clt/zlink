@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="connecting_horizontal_bias">0.5</item>
+    <dimen name="hicar_step_pading_l">20.0dip</dimen>
+    <dimen name="hicar_step_sp">15.0sp</dimen>
+</resources>
